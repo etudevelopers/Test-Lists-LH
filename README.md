@@ -1,8 +1,7 @@
 # Test Lists — Learning Hour
 
 A [Learning Hour] on writing test lists before coding: what they are, why they help, and a checklist for a
-well-formed test list item. Includes a Fizzbuzz (and, time permitting, relative path normalization) kata to
-practice on, in both Java and C#.
+well-formed test list item.
 
 This repository is generated from the [learning-hour-template] and includes:
 
@@ -10,42 +9,16 @@ This repository is generated from the [learning-hour-template] and includes:
 - A copy of the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE-CC-BY-SA-4.0) in the
   repository root. This license applies to all site documentation content
 - A [GitHub Actions workflow] in the `.github/workflows` folder to build and deploy the site to GitHub Pages
-- A Java project in the `java` folder, configured with Maven for building and testing
-- A C# project in the `csharp` folder, configured with .NET for building and testing
-- A copy of the [MIT License] for the source code in the language specific folders (e.g., `java`), located in the repository
-- A GitHub Actions workflow for building and testing the Java project, located in `.github/workflows/java-build-test.yml`
-- A GitHub Actions workflow for building and testing the C# project, located in `.github/workflows/csharp-build-test.yml`
 - A Notice file for third-party attributions in the repository root
 
 ## Getting started
 
 1. Go to Settings > Pages > Build and deployment > Source, and select GitHub Actions to serve the `docs` site
 2. See [docs/index.md](docs/index.md) for the Learning Hour agenda
-3. Run the kata in `java/` or `csharp/` — see below
-
-## Java Project
-
-This repository includes a Java project in the `java` folder, configured with Maven:
-
-- Standard Maven structure (`src/main/java`, `src/test/java`)
-- JUnit 5 and AssertJ for testing
-- Java 25 as the target version
-- Build and test using Maven commands (`mvn clean install`, `mvn test`)
-
-## C# Project
-
-This repository includes a C# project in the `csharp` folder, configured with .NET:
-
-- A solution (`LearningHourTemplate.sln`) with a main project and a test project
-- NUnit for testing
-- .NET 10 as the target framework
-- Build and test using .NET commands (`dotnet build`, `dotnet test`)
 
 ## GitHub Actions Workflows
 
 - **Site Deployment:** `.github/workflows/pages.yml` builds and deploys the documentation site to GitHub Pages.
-- **Java Build & Test:** `.github/workflows/java-build-test.yml` automatically builds and tests the Java project on push and pull request events. Test results are uploaded as artifacts.
-- **C# Build & Test:** `.github/workflows/csharp-build-test.yml` automatically builds and tests the C# project on push and pull request events. Test results are uploaded as artifacts.
 
 ## Building and previewing your site locally
 
