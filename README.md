@@ -1,6 +1,10 @@
-# Just the Docs Template
+# Test Lists — Learning Hour
 
-Just the Docs template for creating the Documentation site for a GitHub repository. This template repository includes:
+A [Learning Hour] on writing test lists before coding: what they are, why they help, and a checklist for a
+well-formed test list item. Includes a Fizzbuzz (and, time permitting, relative path normalization) kata to
+practice on, in both Java and C#.
+
+This repository is generated from the [learning-hour-template] and includes:
 
 - A [Jekyll] site configured with the [Just the Docs] theme, located in the `docs` folder
 - A copy of the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE-CC-BY-SA-4.0) in the
@@ -15,20 +19,9 @@ Just the Docs template for creating the Documentation site for a GitHub reposito
 
 ## Getting started
 
-To get started with creating a site, simply:
-
-1. Copy the [docs](docs) folder and [.github/workflows/pages.yml](.github/workflows/pages.yml) file into your
-   repository.
-2. Copy the [LICENSE-CC-BY-SA-4.0](LICENSE-CC-BY-SA-4.0) and [NOTICE](NOTICE) files into your repository root.
-3. Go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-After completing the creation of your new site on GitHub, update it as needed:
-
-- `_config.yml` (site title, description, and repository URL)
-- `README.md` (information for those who access your site repo on GitHub)
-- `NOTICE` (attributions for any third-party content you use in your site)
-- `java/pom.xml` (project name, dependencies, and other configurations for the Java project)
-- `csharp/LearningHourTemplate/LearningHourTemplate.csproj` (project name, dependencies, and other configurations for the C# project)
+1. Go to Settings > Pages > Build and deployment > Source, and select GitHub Actions to serve the `docs` site
+2. See [docs/index.md](docs/index.md) for the Learning Hour agenda
+3. Run the kata in `java/` or `csharp/` — see below
 
 ## Java Project
 
@@ -75,7 +68,7 @@ the `docs/` folder.
 The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows]. A copy of their MIT
 License is available in [actions/starter-workflows].
 
-All documentation content within the `docs/` folder is authored by Iván Fernández and licensed under
+All documentation content within the `docs/` folder is licensed under
 the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) License].
 
 You are generally free to reuse or extend upon the code in this repository as you see fit, provided you comply with the
@@ -85,6 +78,8 @@ terms of the respective licenses for the code and documentation.
 
 [Jekyll]: https://jekyllrb.com
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
+[Learning Hour]: https://sammancoaching.org/reference/learning_hour_definition.html
+[learning-hour-template]: https://github.com/ibanFR/learning-hour-template
 [GitHub Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
 [Bundler]: https://bundler.io
 [MIT License]: https://en.wikipedia.org/wiki/MIT_License
