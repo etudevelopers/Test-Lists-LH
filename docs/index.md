@@ -54,6 +54,14 @@ coding demo.
 - If you still have time, do the same for relative path normalization
 - Before moving to the next exercise, cross-check your list against the checklist in [Concept Explanation]
 
+**Facilitator notes.** Fizzbuzz's rules are stated explicitly in the prompt, so groups tend to move through it
+quickly. Relative path normalization is deliberately harder: the prompt only says a path "may contain `.` and
+`..` with the usual meanings," so groups have to work out the actual rules from examples before a test list makes
+sense — that reverse-engineering is where the richest conversation happens, so let it run rather than jumping in
+with the rules. Expect groups to raise open questions they can't fully resolve in the time box — negative numbers,
+non-integer input, empty or invalid paths, trailing separators. Treat these as good signal, not gaps to close:
+the point is to capture them as explicit assumptions on the list, not to enumerate every case.
+
 See [Concrete Practice Activities] in the [Samman Coaching] website for more ideas on how to design a coding
 exercise to practice the new Concept.
 
@@ -63,8 +71,21 @@ exercise to practice the new Concept.
 - Did you rework the list — did writing a later item change how you saw an earlier one?
 - Remember: a test list is a conjecture, not a full spec — the code is the proof
 
+**Themes to listen for:** building the list together surfaces real conversation and shared understanding, often
+before any code is written; understanding the problem matters more than front-loading every input; it's fine to
+start from concrete examples and only generalize into a rule afterwards; lists get reworked as understanding
+deepens, and that reworking is the exercise working as intended, not a false start; a clear input/output/rule
+shape per item was consistently called out as the most useful habit to keep.
+
 See [Conclusions Activities] in the [Samman Coaching] website for more ideas on how to facilitate a discussion to
 reflect on the learning experience and draw conclusions.
+
+## References
+
+- [Learning Hour] — the Samman format this session follows
+- [Concept Explanation] — the full checklist and worked example
+- [A facilitated run of this Learning Hour](https://miro.com/app/board/uXjVHVVo_9g=/?moveToWidget=3458764654164264768) — real teams' completed test lists and take-aways, on Miro
+- [Samman Coaching] — [Connect Activities] · [Concept Activities] · [Concrete Practice Activities] · [Conclusions Activities]
 
 
 [Learning Hour]: https://sammancoaching.org/reference/learning_hour_definition.html
