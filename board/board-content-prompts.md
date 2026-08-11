@@ -3,10 +3,6 @@
 Record of the prompts used in this session, plus brief output notes captured during the run.
 
 1. I want you to export the Miro board Test Lists – Learning hour (https://miro.com/app/board/uXjVH07M1TQ=/) and add it to this repo the same way it was done for `ibanFR/Progressive-Disclosure-LH` (see its `board/` directory).
-2. PDF file added. What format is that RTB?
-3. I don't see the option to export the board as a Miro board (RTB format).
-4. Yes, go with that (content markdown instead of RTB). This is the location of the PDF file: `board/Test-Lists-LH.pdf`.
-5. Forget it, already added to the repo.
 
 ## Output produced this session
 
