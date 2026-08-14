@@ -35,7 +35,21 @@ Source: <https://sammancoaching.org/exercises/warm_up_questions/tdd_overview_wha
 5. When doing TDD: know when you are done.
 6. When pairing/ensembling: shared understanding.
 
-### 4. Checklist
+### 4. Test lists + AI agents
+
+**Test lists + AI agents**
+
+1. One-shot prompt: you can't see which cases the agent covered — a wrong assumption on item 2 quietly corrupts everything built after it.
+2. Test list first: scope gets agreed *before* code exists — you're reviewing a plan, not reverse-engineering a diff.
+3. One item at a time: a checkpoint after each item — catch a wrong turn at item 2, not after the whole thing is built.
+4. Same rule as before: the list is a conjecture — now the agent supplies the proof, but only for the conjecture you actually approved.
+
+Sources:
+
+- <https://code.claude.com/docs/en/best-practices>
+- <https://martinfowler.com/articles/exploring-gen-ai/05-not-your-pair-programmer.html>
+
+### 5. Checklist
 
 **Checklist**
 
@@ -45,7 +59,7 @@ Source: <https://sammancoaching.org/exercises/warm_up_questions/tdd_overview_wha
 4. Not a full spec, only enough to span the fundamentals.
    - (The list is a conjecture, the code is the proof.)
 
-### 5. Example
+### 6. Example
 
 **Example**
 
@@ -58,15 +72,15 @@ Source: <https://sammancoaching.org/exercises/warm_up_questions/tdd_overview_wha
 
 Easy to generate new examples.
 
-### 6. Practice
+### 7. Practice
 
 **Practice**
 
 1. Write a test list for Fizzbuzz
 2. If you still have time, start on relative path normalization
-3. Before moving to the next exercise, check your list against "Things to look for"
+3. Before moving to the next exercise, check your list against the "Checklist"
 
-### 7. Wrap up
+### 8. Wrap up
 
 **Wrap up**
 
@@ -74,7 +88,7 @@ Easy to generate new examples.
 2. Did you rework the list or change earlier items after writing down later items?
 3. Remind yourself what to look for in a test list.
 
-### 8. Your take-aways
+### 9. Your take-aways
 
 **Your take-aways**
 

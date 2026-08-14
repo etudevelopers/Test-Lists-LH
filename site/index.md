@@ -44,6 +44,13 @@ introduce the topic of this Learning Hour.
 clear names for test classes and methods up front, doubles as a completion criterion for TDD, and builds shared
 understanding when pairing or ensembling.
 
+**Test lists + AI agents.** The same reasoning applies, even more so, when an AI coding agent is doing the typing.
+A one-shot prompt hides which cases the agent actually covered — a wrong assumption early on quietly corrupts
+everything built on top of it. Writing the test list first means scope is agreed *before* code exists, and feeding
+the agent one item at a time gives you a checkpoint after each one, so a wrong turn gets caught early rather than
+after the whole thing is built. See [Claude Code Best Practices] and [Coding assistants do not replace pair
+programming] for more on why an incremental, reviewed workflow beats letting an agent run ahead unsupervised.
+
 See [Concept Explanation] for the full checklist and a worked example (prime numbers), and the
 [Concept Activities] in the [Samman Coaching] website for more ideas on how to introduce a new Concept or do a
 coding demo.
@@ -95,6 +102,8 @@ reflect on the learning experience and draw conclusions.
 [Concrete Practice Activities]: https://sammancoaching.org/activities/concrete.html
 [Conclusions Activities]: https://sammancoaching.org/activities/conclusions.html
 [Samman Coaching]: https://sammancoaching.org/
+[Claude Code Best Practices]: https://code.claude.com/docs/en/best-practices
+[Coding assistants do not replace pair programming]: https://martinfowler.com/articles/exploring-gen-ai/05-not-your-pair-programmer.html
 
 
 
