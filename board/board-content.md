@@ -35,7 +35,17 @@ Source: <https://sammancoaching.org/exercises/warm_up_questions/tdd_overview_wha
 5. When doing TDD: know when you are done.
 6. When pairing/ensembling: shared understanding.
 
-### 4. Test lists + AI agents
+### 4. Checklist
+
+**Checklist**
+
+1. Each item has a **clear before/after or input/output**.
+2. Each item has a motivation or **associated rule** or rules, **in plain language**.
+3. Each item can **easily be translated** into code.
+4. Not a full spec, only enough to span the fundamentals.
+   - (The list is a conjecture, the code is the proof.)
+
+### 5. Test lists + AI agents
 
 **Test lists + AI agents**
 
@@ -48,16 +58,6 @@ Sources:
 
 - <https://code.claude.com/docs/en/best-practices>
 - <https://martinfowler.com/articles/exploring-gen-ai/05-not-your-pair-programmer.html>
-
-### 5. Checklist
-
-**Checklist**
-
-1. Each item has a **clear before/after or input/output**.
-2. Each item has a motivation or **associated rule** or rules, **in plain language**.
-3. Each item can **easily be translated** into code.
-4. Not a full spec, only enough to span the fundamentals.
-   - (The list is a conjecture, the code is the proof.)
 
 ### 6. Example
 
