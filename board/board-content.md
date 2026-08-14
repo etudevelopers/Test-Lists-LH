@@ -95,6 +95,8 @@ Easy to generate new examples.
 1. Was it easier/harder than you thought?
 2. Did you rework the list or change earlier items after writing down later items?
 3. Remind yourself what to look for in a test list.
+4. When should you use test lists?
+5. How does it feel when we use test lists?
 
 ### 10. Your take-aways
 
