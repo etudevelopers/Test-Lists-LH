@@ -77,6 +77,8 @@ exercise to practice the new Concept.
 - Was writing the test list easier or harder than you expected?
 - Did you rework the list — did writing a later item change how you saw an earlier one?
 - Remember: a test list is a conjecture, not a full spec — the code is the proof
+- When should you use test lists?
+- How does it feel when we use test lists?
 
 **Themes to listen for:** building the list together surfaces real conversation and shared understanding, often
 before any code is written; understanding the problem matters more than front-loading every input; it's fine to
