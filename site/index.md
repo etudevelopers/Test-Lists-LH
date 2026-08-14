@@ -26,7 +26,7 @@ single test, so a pair or ensemble can clarify the problem and agree on scope to
 - Know the checklist for a well-formed test list item (clear input/output, an explicit rule, easy to turn into code)
 - Practice writing and revising a test list on a real kata, and cross-check it against the checklist
 
-## Connect activity to get everyone thinking about the topic (⏱️ 5 min)
+## Connect activity to get everyone thinking about the topic (⏱️ 10 min)
 
 **Warm-up.** You're about to write code. Which of these best matches you?
 
@@ -38,7 +38,7 @@ single test, so a pair or ensemble can clarify the problem and agree on scope to
 See [Connect Activities] in the [Samman Coaching] website for more ideas on how to connect with your team and
 introduce the topic of this Learning Hour.
 
-## An explanation of a new Concept or a coding demo (⏱️ 5 min)
+## An explanation of a new Concept or a coding demo (⏱️ 15 min)
 
 **Why write a test list?** It clarifies the problem, groups and categorizes cases, surfaces edge cases, gives you
 clear names for test classes and methods up front, doubles as a completion criterion for TDD, and builds shared
@@ -48,7 +48,7 @@ See [Concept Explanation] for the full checklist and a worked example (prime num
 [Concept Activities] in the [Samman Coaching] website for more ideas on how to introduce a new Concept or do a
 coding demo.
 
-## Concrete Practice in a coding exercise (⏱️ 20 min)
+## Concrete Practice in a coding exercise (⏱️ 45 min)
 
 - Write a test list for Fizzbuzz
 - If you still have time, do the same for relative path normalization
@@ -65,7 +65,7 @@ the point is to capture them as explicit assumptions on the list, not to enumera
 See [Concrete Practice Activities] in the [Samman Coaching] website for more ideas on how to design a coding
 exercise to practice the new Concept.
 
-## Conclusions discussion and reflection (⏱️ 5 min)
+## Conclusions discussion and reflection (⏱️ 20 min)
 
 - Was writing the test list easier or harder than you expected?
 - Did you rework the list — did writing a later item change how you saw an earlier one?
