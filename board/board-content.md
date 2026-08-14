@@ -9,7 +9,15 @@ Verbatim transcription of the Miro board [Test Lists – Learning hour](https://
 **Test lists**
 **Learning hour**
 
-### 2. Warm up
+### 2. Learning Goals
+
+**Learning Goals**
+
+1. Understand what a test list is and why writing one before coding helps clarify the problem
+2. Know the checklist for a well-formed test list item
+3. Practice writing and revising a test list on a real kata
+
+### 3. Warm up
 
 **Warm up**
 
@@ -24,7 +32,7 @@ Source: <https://sammancoaching.org/exercises/warm_up_questions/tdd_overview_wha
 
 *(A decorative grid of 15 emoji avatars sits at the top of this slide, presumably for participants to pick as their identifier.)*
 
-### 3. Why write a test list?
+### 4. Why write a test list?
 
 **Why write a test list?**
 
@@ -34,16 +42,6 @@ Source: <https://sammancoaching.org/exercises/warm_up_questions/tdd_overview_wha
 4. Gives clear names to test classes and methods.
 5. When doing TDD: know when you are done.
 6. When pairing/ensembling: shared understanding.
-
-### 4. Checklist
-
-**Checklist**
-
-1. Each item has a **clear before/after or input/output**.
-2. Each item has a motivation or **associated rule** or rules, **in plain language**.
-3. Each item can **easily be translated** into code.
-4. Not a full spec, only enough to span the fundamentals.
-   - (The list is a conjecture, the code is the proof.)
 
 ### 5. Test lists + AI agents
 
@@ -59,7 +57,17 @@ Sources:
 - <https://code.claude.com/docs/en/best-practices>
 - <https://martinfowler.com/articles/exploring-gen-ai/05-not-your-pair-programmer.html>
 
-### 6. Example
+### 6. Checklist
+
+**Checklist**
+
+1. Each item has a **clear before/after or input/output**.
+2. Each item has a motivation or **associated rule** or rules, **in plain language**.
+3. Each item can **easily be translated** into code.
+4. Not a full spec, only enough to span the fundamentals.
+   - (The list is a conjecture, the code is the proof.)
+
+### 7. Example
 
 **Example**
 
@@ -72,7 +80,7 @@ Sources:
 
 Easy to generate new examples.
 
-### 7. Practice
+### 8. Practice
 
 **Practice**
 
@@ -80,7 +88,7 @@ Easy to generate new examples.
 2. If you still have time, start on relative path normalization
 3. Before moving to the next exercise, check your list against the "Checklist"
 
-### 8. Wrap up
+### 9. Wrap up
 
 **Wrap up**
 
@@ -88,7 +96,7 @@ Easy to generate new examples.
 2. Did you rework the list or change earlier items after writing down later items?
 3. Remind yourself what to look for in a test list.
 
-### 9. Your take-aways
+### 10. Your take-aways
 
 **Your take-aways**
 
