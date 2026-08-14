@@ -45,7 +45,7 @@ Source: <https://sammancoaching.org/exercises/warm_up_questions/tdd_overview_wha
 4. Not a full spec, only enough to span the fundamentals.
    - (The list is a conjecture, the code is the proof.)
 
-### 5. Example (variant A)
+### 5. Example
 
 **Example**
 
@@ -79,21 +79,6 @@ Easy to generate new examples.
 **Your take-aways**
 
 *(Empty sticky note area for participant responses — no content captured.)*
-
-### 9. Example (variant B)
-
-**Example**
-
-**A prime number is a natural number with exactly two distinct, positive divisors.**
-
-1. One is not a prime number: only *one distinct* divisor, itself.
-2. Two is a prime number: 1 * 2
-3. Four is not a prime number: *more than two* divisors.
-4. Zero is not a prime number: not a *natural number*. (Edge case.)
-
-Easy to generate new examples.
-
-*(Near-duplicate of slide 5, with minor wording differences in items 2 and 3.)*
 
 ## Team workspace frames
 
